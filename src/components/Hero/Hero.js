@@ -16,7 +16,7 @@ const Hero = () => (
         My Name is Bourhjoul Abdessamad.
       </SectionTitle>
       <SectionText>
-        I'm passionate Web developer who loves to make things that{" "}
+        I'm a passionate Web developer who loves to make things that{" "}
         <h3>make difference.</h3>
       </SectionText>
       <Button>
