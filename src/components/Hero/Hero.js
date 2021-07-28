@@ -13,7 +13,7 @@ const Hero = () => (
     <LeftSection>
       <SectionTitle main center>
         Hello, <br />
-        I'm Bourhjoul Abdessamad
+        My Name is Bourhjoul Abdessamad.
       </SectionTitle>
       <SectionText>
         I'm passionate Web developer who loves to make things that{" "}
