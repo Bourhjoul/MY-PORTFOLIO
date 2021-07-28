@@ -29,6 +29,16 @@ export const projects = [
     visit: "https://news-reader-ai.netlify.app/",
     id: 2,
   },
+  {
+    title: "RestFull Api for a social media app",
+    description:
+      "in this project I have practiced the Rest api standards using a sql database and microserives Architecture",
+    image: "/images/rest.png",
+    tags: ["Rest Api", "postgresql", "Nodejs", "Typescript"],
+    source: "https://github.com/Bourhjoul/REST-API-SOCIALMEDIA-APP",
+    visit: "https://github.com/Bourhjoul/REST-API-SOCIALMEDIA-APP",
+    id: 3,
+  },
 ]
 
 export const TimeLineData = [
