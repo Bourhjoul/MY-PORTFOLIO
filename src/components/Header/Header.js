@@ -1,14 +1,66 @@
-import Link from 'next/link';
-import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
+import Link from "next/link"
+import React from "react"
+import {
+  AiFillBehanceSquare,
+  AiFillGithub,
+  AiFillLinkedin,
+} from "react-icons/ai"
+import { DiCssdeck } from "react-icons/di"
+import {
+  Container,
+  LeftDiv,
+  CenterDiv,
+  RightDiv,
+  Logo,
+  NavLink,
+  SocialIcons,
+} from "./HeaderStyles"
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+const Header = () => (
+  <Container>
+    <LeftDiv>
+      <Link href="/">
+        <a
+          style={{
+            display: "flex",
+            alignItems: "center",
+            color: "white",
+            marginBottom: "20px",
+          }}
+        >
+          <DiCssdeck size="3rem" /> <Logo>Samides</Logo>
+        </a>
+      </Link>
+    </LeftDiv>
+    <CenterDiv>
+      <li>
+        <Link href="#projects">
+          <NavLink>Projects</NavLink>
+        </Link>
+      </li>
+      <li>
+        <Link href="#Tools">
+          <NavLink>Tools</NavLink>
+        </Link>
+      </li>
+      <li>
+        <Link href="#About">
+          <NavLink>About</NavLink>
+        </Link>
+      </li>
+    </CenterDiv>
+    <RightDiv>
+      <SocialIcons target="_blank" href="https://github.com/Bourhjoul/">
+        <AiFillGithub size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://www.linkedin.com/in/abdessamad-bourhjoul-35288a203/">
+        <AiFillLinkedin size="3rem" />
+      </SocialIcons>
+      <SocialIcons>
+        <AiFillBehanceSquare size="3rem" />
+      </SocialIcons>
+    </RightDiv>
+  </Container>
+)
 
-const Header = () =>  (
-  <div>
-    Header
-  </div>
-);
-
-export default Header;
+export default Header
