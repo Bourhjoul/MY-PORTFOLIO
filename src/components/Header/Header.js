@@ -56,7 +56,10 @@ const Header = () => (
       <SocialIcons href="https://www.linkedin.com/in/abdessamad-bourhjoul-35288a203/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons>
+      <SocialIcons
+        target="_blank"
+        href="https://www.behance.net/abdessamadbourhjoul"
+      >
         <AiFillBehanceSquare size="3rem" />
       </SocialIcons>
     </RightDiv>
