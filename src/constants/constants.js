@@ -30,6 +30,16 @@ export const projects = [
     id: 2,
   },
   {
+    title: "Word Hunter Dectionary",
+    description:
+      "in this project I have used material ui and a dectionary api to build a Progressive web app which works in a browser and also in mobile and gives you words meaning and pronouns of it.",
+    image: "/images/wordhunter.png",
+    tags: ["React", "material ui", "Progressive web app"],
+    source: "https://github.com/Bourhjoul/Dictionary-word-hunter-Pwa",
+    visit: "https://word-hunter-dectionary.netlify.app/",
+    id: 4,
+  },
+  {
     title: "RestFull Api for a social media app",
     description:
       "in this project I have practiced the Rest api standards using a sql database and microserives Architecture",

@@ -63,6 +63,7 @@ const Technologies = () => (
           <ListParagraph>
             Java <br />
             Database Design <br />
+            progressive web app <br />
             Photoshop & Illustrator <br />
             Git & Github <br />
             Scrum <br />
