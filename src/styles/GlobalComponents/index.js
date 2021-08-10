@@ -31,6 +31,7 @@ export const SectionTitle = styled.h2`
   width: max-content;
   max-width: 100%;
   background: #ffffff;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;

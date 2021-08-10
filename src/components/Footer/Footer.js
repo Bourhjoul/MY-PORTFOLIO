@@ -27,6 +27,9 @@ const Footer = () => {
           <LinkItem href="mailto:abdessamadbourhjoul@gmail.com">
             abdessamadbourhjoul@gmail.com
           </LinkItem>
+          <LinkItem href="/Resume/moncv.pdf" download>
+            Download My resume
+          </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
