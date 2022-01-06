@@ -52,14 +52,19 @@ export const projects = [
 ]
 
 export const TimeLineData = [
-  { year: 2015, text: "Started my journey" },
-  { year: 2020, text: "Worked 5 years as freelancer designer" },
+  { year: 2015, endYear: 2020, text: "Worked 5 years as freelancer designer" },
   {
-    year: 2021,
+    year: 2019,
+    endYear: 2021,
     text: "Graduated from superior school of technology as Developer",
   },
   {
     year: 2021,
-    text: "An internship as a web developer in Life makers academy",
+    text: "An internship as a web developer At Life makers academy",
+  },
+  {
+    year: 2021,
+    endYear: 2022,
+    text: "Worked As a software Developer At TeraByte Software.",
   },
 ]

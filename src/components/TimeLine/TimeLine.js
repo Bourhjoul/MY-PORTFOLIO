@@ -81,7 +81,7 @@ const Timeline = () => {
                 onClick={handleClick}
               >
                 <CarouselItemTitle>
-                  {item.year}
+                  {item.year} {item.endYear ? ` - ${item.endYear}` : ""}
                   <CarouselItemImg
                     width="208"
                     height="6"
