@@ -1,29 +1,28 @@
-import React from "react"
-import { DiFirebase, DiReact } from "react-icons/di"
-import { AiOutlinePlus } from "react-icons/ai"
-import { FaServer } from "react-icons/fa"
+import React from "react";
+import { DiFirebase, DiReact } from "react-icons/di";
+import { AiOutlinePlus } from "react-icons/ai";
+import { FaServer } from "react-icons/fa";
 import {
   Section,
   SectionDivider,
   SectionText,
   SectionTitle,
-} from "../../styles/GlobalComponents"
+} from "../../styles/GlobalComponents";
 import {
   List,
   ListContainer,
   ListItem,
   ListParagraph,
   ListTitle,
-} from "./TechnologiesStyles"
+} from "./TechnologiesStyles";
 
 const Technologies = () => (
   <Section id="Tools">
-    <SectionDivider />
     <br />
     <SectionTitle>Tools</SectionTitle>
     <SectionText>
-      For me it dosen't matter which technology I'm gonna use , but which one is
-      gonna help do it quickly and in clean way.
+      For me it doesn't matter which technology I know or love to work with, but
+      which one is gonna help get the job in clean way and quickly.
     </SectionText>
     <ListContainer>
       <List>
@@ -72,6 +71,6 @@ const Technologies = () => (
       </List>
     </ListContainer>
   </Section>
-)
+);
 
-export default Technologies
+export default Technologies;

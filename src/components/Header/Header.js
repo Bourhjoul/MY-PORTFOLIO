@@ -1,11 +1,11 @@
-import Link from "next/link"
-import React from "react"
+import Link from "next/link";
+import React from "react";
 import {
   AiFillBehanceSquare,
   AiFillGithub,
   AiFillLinkedin,
-} from "react-icons/ai"
-import { DiCssdeck } from "react-icons/di"
+} from "react-icons/ai";
+import { DiCssdeck } from "react-icons/di";
 import {
   Container,
   LeftDiv,
@@ -14,7 +14,7 @@ import {
   Logo,
   NavLink,
   SocialIcons,
-} from "./HeaderStyles"
+} from "./HeaderStyles";
 
 const Header = () => (
   <Container>
@@ -34,18 +34,13 @@ const Header = () => (
     </LeftDiv>
     <CenterDiv>
       <li>
-        <Link href="#projects">
-          <NavLink>Projects</NavLink>
-        </Link>
-      </li>
-      <li>
         <Link href="#Tools">
           <NavLink>Tools</NavLink>
         </Link>
       </li>
       <li>
         <Link href="#About">
-          <NavLink>About</NavLink>
+          <NavLink>About me</NavLink>
         </Link>
       </li>
     </CenterDiv>
@@ -64,6 +59,6 @@ const Header = () => (
       </SocialIcons>
     </RightDiv>
   </Container>
-)
+);
 
-export default Header
+export default Header;
