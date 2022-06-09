@@ -1,7 +1,7 @@
-import React from "react"
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
+import React from "react";
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 
-import { SocialIcons } from "../Header/HeaderStyles"
+import { SocialIcons } from "../Header/HeaderStyles";
 import {
   CompanyContainer,
   FooterWrapper,
@@ -12,7 +12,7 @@ import {
   Slogan,
   SocialContainer,
   SocialIconsContainer,
-} from "./FooterStyles"
+} from "./FooterStyles";
 
 const Footer = () => {
   return (
@@ -27,7 +27,7 @@ const Footer = () => {
           <LinkItem href="mailto:abdessamadbourhjoul@gmail.com">
             abdessamadbourhjoul@gmail.com
           </LinkItem>
-          <LinkItem href="/Resume/moncv.pdf" download>
+          <LinkItem href="/Resume/MyResume.pdf" download>
             Download My resume
           </LinkItem>
         </LinkColumn>
@@ -46,7 +46,7 @@ const Footer = () => {
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
