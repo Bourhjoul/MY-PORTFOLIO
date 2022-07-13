@@ -43,6 +43,11 @@ const Header = () => (
           <NavLink>About me</NavLink>
         </Link>
       </li>
+      <li>
+        <Link href="#projects">
+          <NavLink>Projects</NavLink>
+        </Link>
+      </li>
     </CenterDiv>
     <RightDiv>
       <SocialIcons target="_blank" href="https://github.com/Bourhjoul/">
